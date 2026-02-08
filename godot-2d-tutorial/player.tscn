@@ -40,9 +40,9 @@ script = ExtResource("1_sweqy")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2050249796]
+scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_dw050")
-animation = &"up"
-speed_scale = 0.5
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=246833350]
 shape = SubResource("CapsuleShape2D_b26j0")
