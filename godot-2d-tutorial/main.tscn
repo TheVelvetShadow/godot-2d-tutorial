@@ -22,7 +22,7 @@ wait_time = 2.0
 one_shot = true
 
 [node name="ScoreTimer" type="Timer" parent="." unique_id=2027090621]
-wait_time = 0.2
+wait_time = 0.5
 
 [node name="MobTimer" type="Timer" parent="." unique_id=245711501]
 wait_time = 0.5
