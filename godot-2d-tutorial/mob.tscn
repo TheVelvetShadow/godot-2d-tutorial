@@ -48,6 +48,8 @@ animations = [{
 radius = 36.0
 height = 100.0
 
+[sub_resource type="Curve2D" id="Curve2D_1qmh0"]
+
 [node name="Mob" type="RigidBody2D" unique_id=1963439084]
 collision_mask = 0
 gravity_scale = 0.0
@@ -64,3 +66,6 @@ rotation = -1.5707964
 shape = SubResource("CapsuleShape2D_b3mxk")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=1120187284]
+
+[node name="MobPath" type="Path2D" parent="." unique_id=845659460]
+curve = SubResource("Curve2D_1qmh0")
